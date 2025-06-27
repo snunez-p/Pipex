@@ -6,7 +6,7 @@
 /*   By: amaltea <amaltea@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/17 17:45:08 by snunez-p          #+#    #+#             */
-/*   Updated: 2025/05/21 18:13:12 by amaltea          ###   ########.fr       */
+/*   Updated: 2025/06/27 14:26:00 by amaltea          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -88,7 +88,7 @@ static char	**create_splits(char **tab, char const *s, char c)
 char	**ft_split(char const *s, char c)
 {
 	char	**result;
-	
+
 	if (!s)
 		return (NULL);
 	result = (char **)malloc((count_splits(s, c) + 1) * sizeof(char *));

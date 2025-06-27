@@ -6,7 +6,7 @@
 /*   By: amaltea <amaltea@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/17 17:51:29 by snunez-p          #+#    #+#             */
-/*   Updated: 2025/05/24 22:34:19 by amaltea          ###   ########.fr       */
+/*   Updated: 2025/06/27 14:24:44 by amaltea          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,10 +37,10 @@ void	ft_putendl_fd(char *s, int fd);
 void	ft_putnbr_fd(int n, int fd);
 void	ft_putstr_fd(char *s, int fd);
 char	**ft_split(char const *s, char c);
-int ft_sqrt(int n);
+int		ft_sqrt(int n);
 char	*ft_strchr(const char *s, int c);
 char	*ft_strdup(const char *s);
-void	ft_striteri(char *s, void (*f)(unsigned int, char*));
+void	ft_striteri(char *s, void (*f)(unsigned int, char *));
 char	*ft_strjoin(char const *s1, char const *s2);
 int		ft_strlcat(char *dst, const char *src, size_t size);
 void	*ft_calloc(size_t nmemb, size_t size);

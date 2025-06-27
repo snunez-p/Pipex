@@ -6,7 +6,7 @@
 /*   By: amaltea <amaltea@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/26 20:02:53 by amaltea           #+#    #+#             */
-/*   Updated: 2025/06/27 01:21:30 by amaltea          ###   ########.fr       */
+/*   Updated: 2025/06/27 14:26:48 by amaltea          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,7 +26,7 @@ void	cmdnf_error(char *cmd)
 	write (2, ": command not found\n", 20);
 }
 
-void error_g(int pipefd[2])
+void	error_g(int pipefd[2])
 {
 	perror("pipex");
 	if (pipefd != NULL)

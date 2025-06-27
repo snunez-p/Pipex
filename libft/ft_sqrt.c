@@ -6,15 +6,15 @@
 /*   By: amaltea <amaltea@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/24 21:42:28 by amaltea           #+#    #+#             */
-/*   Updated: 2025/05/24 21:47:52 by amaltea          ###   ########.fr       */
+/*   Updated: 2025/06/27 14:26:27 by amaltea          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int ft_sqrt(int n)
+int	ft_sqrt(int n)
 {
-	int i;
+	int	i;
 
 	if (n <= 0)
 		return (0);
